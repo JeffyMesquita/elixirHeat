@@ -3,9 +3,10 @@ use Mix.Config
 # Configure your database
 config :elixirHeat, ElixirHeat.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "Je4217789|4217789|",
   database: "elixirheat_dev",
   hostname: "localhost",
+  port: 9999,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
