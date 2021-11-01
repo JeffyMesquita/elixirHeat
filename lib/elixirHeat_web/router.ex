@@ -7,6 +7,8 @@ defmodule ElixirHeatWeb.Router do
 
   scope "/api", ElixirHeatWeb do
     pipe_through :api
+
+    post "/message", MessagesController, :create
   end
 
   # Enables LiveDashboard only for development
